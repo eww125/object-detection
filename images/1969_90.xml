@@ -1,0 +1,26 @@
+<annotation>
+	<folder>streetview</folder>
+	<filename>1969_90.png</filename>
+	<path>/Users/eww125/thecbrgroup/streetview/1969_90.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Steel_Pole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>493</xmin>
+			<ymin>64</ymin>
+			<xmax>538</xmax>
+			<ymax>185</ymax>
+		</bndbox>
+	</object>
+</annotation>

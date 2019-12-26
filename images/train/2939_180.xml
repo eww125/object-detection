@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>2939_180.png</filename>
+	<path>/Users/eww125/thecbrgroup/images/2939_180.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Steel_Pole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>165</xmin>
+			<ymin>58</ymin>
+			<xmax>201</xmax>
+			<ymax>172</ymax>
+		</bndbox>
+	</object>
+</annotation>

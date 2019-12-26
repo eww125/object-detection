@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>7926_0.png</filename>
+	<path>/Users/eww125/thecbrgroup/images/7926_0.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Wood_Pole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>526</xmin>
+			<ymin>63</ymin>
+			<xmax>556</xmax>
+			<ymax>185</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>training</folder>
+	<filename>5692_0.png</filename>
+	<path>/Users/evanwappel/thecbrgroup/training/5692_0.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>0</width>
+		<height>0</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Wood_Pole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>411</xmin>
+			<ymin>46</ymin>
+			<xmax>432</xmax>
+			<ymax>175</ymax>
+		</bndbox>
+	</object>
+</annotation>
