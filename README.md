@@ -31,7 +31,7 @@ def class_text_to_int(row_label):
 
 ### Creating a label map
 #### The label map maps an id to a name. We will put it in a folder called training, which is located in the object_detection directory. The labelmap for my detector can be seen below.
-
+```javascript
 item {
     id: 1
     name: 'Raspberry_Pi_3'
@@ -48,4 +48,5 @@ item {
     id: 4
     name: 'Heltec_ESP32_Lora'
 }
-The id number of each item should match the id of specified in the generate_tfrecord.py file.
+```
+#### The id number of each item should match the id of specified in the generate_tfrecord.py file.
