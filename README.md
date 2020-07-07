@@ -12,7 +12,7 @@
 #### test_labels.csv
 #### train_labels.csv
 ### Before we can transform the newly created files to TFRecords we need to change a few lines in the generate_tfrecords.py file.
-```python
+~~~~{.python}
 def class_text_to_int(row_label):
     if row_label == 'Raspberry_Pi_3':
         return 1
@@ -24,7 +24,7 @@ def class_text_to_int(row_label):
         return 4
     else:
         return None
-```
+~~~~
 
 
 ```js
