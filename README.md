@@ -1,3 +1,3 @@
 # object_detection
 
-## https://machinelearningmastery.com/how-to-train-an-object-detection-model-with-keras/
+## https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html
