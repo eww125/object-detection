@@ -12,17 +12,19 @@
 #### test_labels.csv
 #### train_labels.csv
 ### Before we can transform the newly created files to TFRecords we need to change a few lines in the generate_tfrecords.py file.
-### `def class_text_to_int(row_label):`
-### `    if row_label == 'Raspberry_Pi_3':`
-### `        return 1`
-### `    elif row_label == 'Arduino_Nano':`
-### `        return 2`
-### `    elif row_label == 'ESP8266':`
-### `        return 3`
-### `    elif row_label == 'Heltec_ESP32_Lora':`
-### `        return 4`
-### `    else:`
-### `    return None`
+```python
+def class_text_to_int(row_label):
+    if row_label == 'Raspberry_Pi_3':
+        return 1
+    elif row_label == 'Arduino_Nano':
+        return 2
+    elif row_label == 'ESP8266':
+        return 3
+    elif row_label == 'Heltec_ESP32_Lora':
+        return 4
+    else:
+        return None
+```
 
 
 ```js
