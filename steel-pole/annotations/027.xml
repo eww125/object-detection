@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>027.png</filename>
+	<path>/Users/evanwappel/object-detection/steel-pole/images/027.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>317</width>
+		<height>471</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pole</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>85</xmin>
+			<ymin>51</ymin>
+			<xmax>248</xmax>
+			<ymax>224</ymax>
+		</bndbox>
+	</object>
+</annotation>
