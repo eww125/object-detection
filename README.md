@@ -23,3 +23,8 @@
 ### `        return 4`
 ### `    else:`
 ### `    return None`
+
+
+```js
+var a = {};
+```
