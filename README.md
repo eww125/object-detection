@@ -8,7 +8,10 @@
 ### test, file81-file100
 ### `python transform_image_resolution.py -d images/train/ -s 800 600`
 ### `python transform_image_resolution.py -d images/test/ -s 800 600`
-## ImgLabel
+## ImgLabel https://github.com/tzutalin/labelImg
+### `cd ~/labelImg`
+### In data/predefined_classes.txt define the list of classes that will be used for your training.
+### `python labelImg.py`
 ### `python xml_to_csv.py`
 ### This creates two files in the images directory:
 #### test_labels.csv
