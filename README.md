@@ -51,4 +51,4 @@ item {
 
 https://raw.githubusercontent.com/tensorflow/models/master/research/object_detection/samples/configs/faster_rcnn_inception_v2_pets.config
 
-https://raw.githubusercontent.com/tensorflow/models/master/research/object_detection/legacy/train.py
+https://raw.githubusercontent.com/tensorflow/models/master/research/object_detection/model_main.py
