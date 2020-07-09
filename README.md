@@ -39,19 +39,14 @@ def class_text_to_int(row_label):
 ```javascript
 item {
     id: 1
-    name: 'Raspberry_Pi_3'
+    name: 'Steel_Pole'
 }
 item {
     id: 2
-    name: 'Arduino_Nano'
-}
-item {
-    id: 3
-    name: 'ESP8266'
-}
-item {
-    id: 4
-    name: 'Heltec_ESP32_Lora'
+    name: 'Wood_Pole'
 }
 ```
 #### The id number of each item should match the id of specified in the generate_tfrecord.py file.
+
+
+https://github.com/tensorflow/models/tree/master/research/object_detection/samples/configs
