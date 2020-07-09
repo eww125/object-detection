@@ -49,4 +49,6 @@ item {
 #### The id number of each item should match the id of specified in the generate_tfrecord.py file.
 
 
-https://github.com/tensorflow/models/tree/master/research/object_detection/samples/configs
+https://raw.githubusercontent.com/tensorflow/models/master/research/object_detection/samples/configs/faster_rcnn_inception_v2_pets.config
+
+https://raw.githubusercontent.com/tensorflow/models/master/research/object_detection/legacy/train.py
