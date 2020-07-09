@@ -21,6 +21,7 @@ from __future__ import print_function
 from absl import flags
 
 import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 
 from object_detection import model_hparams
 from object_detection import model_lib

@@ -52,3 +52,10 @@ item {
 https://raw.githubusercontent.com/tensorflow/models/master/research/object_detection/samples/configs/faster_rcnn_inception_v2_pets.config
 
 https://raw.githubusercontent.com/tensorflow/models/master/research/object_detection/model_main.py
+
+pip3 install -U scikit-image
+pip3 install -U cython 
+pip3 install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
+
+
+python model_main.py --logtostderr --model_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_pets.config
