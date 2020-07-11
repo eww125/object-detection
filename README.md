@@ -57,5 +57,9 @@ pip3 install -U scikit-image
 pip3 install -U cython 
 pip3 install "git+https://github.com/philferriere/cocoapi.git#egg=pycocotools&subdirectory=PythonAPI"
 
+tf_upgrade_v2 \
+  --infile model_main.py \
+  --outfile model_main_v2.py
 
-python model_main.py --logtostderr --model_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_pets.config
+
+python model_main_v2.py --logtostderr --model_dir=training/ --pipeline_config_path=training/faster_rcnn_inception_v2_pets.config
