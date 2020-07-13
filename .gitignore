@@ -1,5 +1,6 @@
-images/train/
-images/test/
 test.record
 train.record
 models/
+fremont_pole_training.zip
+images/
+images_old/
